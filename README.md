@@ -16,4 +16,4 @@ All networks are provided as .mat files which can be loaded in MATLAB.
 More details about the networks are given in the manuscript. 
 
 
-The "Code" directory constains 2 MATLAB functions: "benjaminModel.m" and "thetaModel.m". These functions can be used to compute the brain network ictogenicity (BNI) using the bi-stable (Benjamin) model and the theta model. The node ictogenicity (NI) can be obtained from the BNI (see the manuscript).
+The "Code" directory constains the MATLAB functions: "benjaminModel.m" and "thetaModel.m", which can be used to compute the brain network ictogenicity (BNI) using the bi-stable (Benjamin) model and the theta model. The node ictogenicity (NI) can be obtained from the BNI (see the manuscript). Additionally, the script "hopf_heun.m" can be used to replicate the findings with two nodes (e.g., escape time). This script uses the function "set_paras.m" which is also available in this directory. 
